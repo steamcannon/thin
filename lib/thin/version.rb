@@ -15,7 +15,7 @@ module Thin
     RACK     = [1, 0].freeze # Rack protocol version
   end
   
-  NAME    = 'thin'.freeze
+  NAME    = 'steamcannon-thin'.freeze
   SERVER  = "#{NAME} #{VERSION::STRING} codename #{VERSION::CODENAME}".freeze  
   
   def self.win?
